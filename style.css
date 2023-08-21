@@ -1,0 +1,91 @@
+* {
+        /* fonts */
+
+        font-family: 'Comic Neue', cursive;
+        font-family: 'DM Sans', sans-serif;
+        font-family: 'Inconsolata', monospace;
+        font-family: 'Josefin Sans', sans-serif;
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'REM', sans-serif;
+        font-family: 'Roboto', sans-serif;
+        font-family: 'Roboto Mono', monospace;
+        font-family: 'Tektur', cursive;
+        font-family: 'Ubuntu', sans-serif;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 80vh;
+    background: linear-gradient(to left, #e76f51, #f4a261);
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.timer_container {
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    justify-content: center;
+    border-left: 1px groove #333;
+    border-bottom: 1px groove #333;
+    box-shadow: 10px 10px 20px #333;
+    flex-basis: 100%;
+}
+
+.timer {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #023047;
+    box-shadow: 5px 5px 20px #333;
+    font-size: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn {
+    width: 380px;
+    height: 40px;
+    padding: 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color: #219ebc;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    cursor: pointer;
+    opacity: .9;
+    transition: .2s;
+}
+
+.btn:hover {
+    opacity: 1;
+}
+
+
+/* Mobile */
+
+@media only screen and (min-width: 200px) and (max-width: 600px) {
+    .main {
+        width: 200px;
+        color: black;
+    }
+}
